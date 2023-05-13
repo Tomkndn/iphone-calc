@@ -23,7 +23,6 @@ section{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* filter: invert(1); */
 }
 p{
     border-radius: 10px;
