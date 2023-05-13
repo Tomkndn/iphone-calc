@@ -14,9 +14,8 @@ section{
 .block{
     border-radius: 10px;
     background-color: #464444;
-    
     margin: 2rem 2rem;
-    height: 90vh;
+    height: 700px;
     width: 30rem;
 }
 .icon{
@@ -28,12 +27,12 @@ section{
 }
 p{
     border-radius: 10px;
-    font-size: 110px;
+    font-size: 6.8rem;
     display: flex;
     justify-content: end;
     align-items: end;
     background-color: #7a7575;
-    height: 35%;
+    height: 11.3rem;
 }
 .buttons{
     margin-top: 10px;
@@ -48,11 +47,11 @@ p{
     gap: 20px;
 }
 .btn > div{
-    height: 90px;
-    width: 90px;
+    height: 5.6rem;
+    width: 5.6rem;
     background-color: #595555;
     border-radius: 50%;
-    font-size: 40px;
+    font-size: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +68,7 @@ p{
 }
 #zero{
     border-radius: 50px;
-    width: 200px;
+    width: 12.5rem;
 
 }
 .btn > div:hover{
