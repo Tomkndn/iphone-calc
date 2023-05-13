@@ -1,7 +1,10 @@
 let output = document.getElementsByTagName('p')[0];
 
-let ac = document.getElementById('ac');
+let plus = document.getElementById('plus');
+let minus = document.getElementById('minus');
+let multi = document.getElementById('multi');
 let divison = document.getElementById('divison');
+let equal = document.getElementById('equal');
 
 let fnum=''
 let sign = true
@@ -24,8 +27,7 @@ function plusMin(){
         output.innerText = '-' + fnum;
         sign = false
     }else{
-        output.innerText = '0';
-        fnum = ''
+        output.innerText = fnum;
         sign = true
     }
 }
