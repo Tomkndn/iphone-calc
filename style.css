@@ -22,7 +22,7 @@ section{
     width: 30rem;
 }
 .icon{
-    background: url('icon.png');
+    background: url('clear.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -44,6 +44,7 @@ p{
     align-items: center;
     flex-direction: column;
     gap: 0.3125rem;
+    -webkit-tap-highlight-color: transparent;
 }
 .btn{
     display: flex;
