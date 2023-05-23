@@ -8,7 +8,7 @@ html{
     background-color: rgb(139, 151, 185);
 }
 section{
-    /* height: 100vh; */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ section{
 .block{
     border-radius: 10px;
     background-color: #464444;
-    margin: 2rem 2rem;
+    /* margin: 3rem 2rem; */
     height: 43.75rem;
     width: 30rem;
 }
